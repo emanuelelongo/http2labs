@@ -59,6 +59,6 @@ function pushImage(res){
          .end(fs.readFileSync(__dirname + '/pushgreen.png'));
     
     res.writeHead(200);
-    res.end('<html><body><img src="/push.png" height="100" width="100"></body></html>');
+    res.end('<html><body><img src="/push.png" height="100" width="100"><img src="/push.png" height="120" width="100"></body></html>');
   
 };
